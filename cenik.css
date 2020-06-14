@@ -1,0 +1,44 @@
+
+@import url("reset.css");
+@import url(http://fonts.googleapis.com/css?family=Allura|Courgette|Roboto:wght@100;300;700&subset=latin,latin-ext);
+/* @FONT-FACE */
+/*
+	font-family: 'Allura', cursive;
+	font-family: 'Courgette', cursive;
+*/
+@font-face {
+    font-family: 'Roboto', sans, serif;
+}
+
+/* BASIC STYLES */
+body {
+    background:#3c96a9 url(./bg-blue.png) scroll top left repeat;
+    font-family: 'Roboto', sans, serif;
+    color:#343642;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-weight:300;
+}
+h3 {
+    font-family: 'Roboto', sans, serif;
+    font-size:33px;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-bottom:10px;
+    color:#fef6e9;
+}
+
+tr:nth-child(odd){
+    background-color: #DE6384;
+}
+tr:nth-child(even){
+    background-color: #9C1A3D;
+    color: #FB9BB5;
+}
+table,th,td{
+    border: 1px solid black;
+}
+
+td{
+    padding: 5px 25px 5px 25px;
+}
